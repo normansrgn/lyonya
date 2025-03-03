@@ -68,7 +68,6 @@ ul {
   margin-top: 40px;
   margin-left: 20px;
   border-bottom: 1px solid rgb(122, 122, 122);
-
 }
 
 .title {
@@ -86,10 +85,40 @@ ul {
 }
 
 .image__title {
-    font-weight: bold;
-    font-size: 15px;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .imgae__p {
-    font-size: 12px;
+  font-size: 12px;
+}
+
+
+.receptCard {
+  border-radius: 10px;
+  border: 1px solid #daf4fa;
+  display: flex;
+  flex-direction: column;
+  height: 285px;
+
+  & img {
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+
+.cardText {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.cardTitel {
+  font-size: 12px;
+  color: #8e8e8e;
+}
+
+.cardDescription {
+  font-weight: bold;
 }
