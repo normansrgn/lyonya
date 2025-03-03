@@ -27,7 +27,7 @@ main {
 
 a {
   text-decoration: none !important;
-  color: rgb(255, 255, 255) !important;
+  color: black !important;
 }
 
 li {
@@ -49,6 +49,7 @@ ul {
 
 .header {
   display: flex;
+  gap: 40px;
   align-items: center;
   padding: 20px;
   border-bottom: 1px solid rgb(122, 122, 122);
@@ -70,13 +71,27 @@ ul {
   border-bottom: 1px solid rgb(122, 122, 122);
 }
 
+.titleCont {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.titleCont {
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
 .title {
   font-weight: bold;
   font-size: 30px;
 }
 
 .image {
-  width: 500px;
+  display: flex;
+
+  gap: 15px;
 
   & img {
     width: 600px;
@@ -84,15 +99,31 @@ ul {
   }
 }
 
+.promoBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+
 .image__title {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 25px;
 }
 
 .imgae__p {
-  font-size: 12px;
+  font-size: 15px;
 }
 
+.culinNEwTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.ReceptContainer {
+  margin-top: 60px;
+}
 
 .receptCard {
   border-radius: 10px;
@@ -121,4 +152,13 @@ ul {
 
 .cardDescription {
   font-weight: bold;
+}
+
+.footer {
+  margin-top: 70px;
+  color: white;
+  background-color: black;
+  align-items: center;
+  padding: 20px;
+  display: flex;
 }
